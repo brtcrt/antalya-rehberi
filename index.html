@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Antalya Rehberi</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+<body>
+        <div class="navbar">
+            <div class="container">
+                <a class="logo" href="index.html">Antalya<span>Rehberi</span></a><br>
+                <p id="mobile-cta" class="mobile-menu">İlçeler</p>
+                <nav>
+                    
+                    <img id="mobile-exit" class="mobile-menu-exit" src="./images/exit.svg" alt="Close Navigation Menu">
+
+                    <ul class="primary-nav">
+                        <li class="current"><a href="index.html">Ana sayfa</a></li>
+                        <li><a href="" class="">Merkez</a></li>
+                        <li><a href="">Akseki</a></li>
+                        <li><a href="">Alanya</a></li>
+                        <li><a href="">Demre</a></li>
+                        <li><a href="">Elmalı</a></li>
+                        <li><a href="">Finike</a></li>
+                        <li><a href="">Gazipaşa</a></li>
+                        <li><a href="">Gündoğmuş</a></li>
+                        <li><a href="">İbradi</a></li>
+                        <li><a href="">Kaş</a></li>
+                        <li><a href="">Kemer</a></li>
+                        <li><a href="">Korkuteli</a></li>
+                        <li><a href="">Kumluca</a></li>
+                        <li><a href="">Manavgat</a></li>
+                        <li><a href="">Serik</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <section class="hero">
+            <div class="container">
+                <div class="left-col">
+                    <p class="subhead">Aradığınız her şey &amp; fazlası...</p>
+                    <h1 class="big-title">Antalya Rehberi</h1>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <script>
+
+            const mobileBtn = document.getElementById("mobile-cta")
+                nav = document.querySelector("nav")
+                mobileBtnExit = document.getElementById("mobile-exit");
+
+            mobileBtn.addEventListener("click", () => {
+                nav.classList.add("menu-btn");
+            });
+
+            mobileBtnExit.addEventListener("click", () => {
+                nav.classList.remove("menu-btn");
+            });
+
+        </script>
+</body>
+</html>
