@@ -13,10 +13,17 @@ body {
 .navbar {
     background: #ffffff; 
     padding: 1em;
+    .main-nav {
+        display: inline-flex;
+        li {
+            padding-left: .5em;
+            padding-right: .5em;
+        }
+    }
     .logo {
         text-decoration: none;
         font-weight: bold;
-        background: linear-gradient(to right, #ff8a00 0%, #e17374 100%);
+        background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -40,7 +47,19 @@ body {
         cursor: pointer;
         text-decoration: none;
         font-weight: bold;
-        background: linear-gradient(to right, #ff8a00 0%, #e17374 100%);
+        background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.3em;
+    }
+    .mobile-menu-dropdown {
+        padding: 0em;
+        margin: 0em;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: bold;
+        background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -85,7 +104,7 @@ section {
 
 .big-title {
     display: inline-block;
-    background: linear-gradient(to right, #ff8a00 0%, #e17374 100%);
+    background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -99,13 +118,6 @@ section {
 .info {
     font-size: 1.04em;
     padding: 2.5em;
-}
-
-.info-para {
-    background: linear-gradient(to right, #8775fc 0%, #ff4e4e 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .github-button{
@@ -132,6 +144,9 @@ nav {
     height: 100vh;
     padding: 1em;
     ul.primary-nav {
+        .current {
+            font-weight: bold;
+        }
         margin-top: 4em;
         li{
             
@@ -146,35 +161,14 @@ nav {
                 padding: .5em;
                 font-size: 1.3em;
                 text-align: right;
-
-                &:hover{
-                    font-weight: bold;
-                }
-            }
-        }
-    }
-    ul.secondary-nav {
-        margin-top: 0em;
-        li{
-            
-            a{
                 
-                background: linear-gradient(to right, #ff8a00 0%, #e17374 100%);
-                background-clip: text;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                text-decoration: none;
-                display: block;
-                padding: .5em;
-                font-size: 1.3em;
-                text-align: right;
-
                 &:hover{
                     font-weight: bold;
                 }
             }
         }
     }
+
 }
 
 .mobile-menu-exit {

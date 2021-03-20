@@ -15,11 +15,22 @@ body {
   padding: 1em;
 }
 
+.navbar .main-nav {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.navbar .main-nav li {
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
 .navbar .logo {
   text-decoration: none;
   font-weight: bold;
-  background: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#e17374));
-  background: linear-gradient(to right, #ff8a00 0%, #e17374 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#84d600));
+  background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -47,8 +58,22 @@ body {
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
-  background: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#e17374));
-  background: linear-gradient(to right, #ff8a00 0%, #e17374 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#84d600));
+  background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.3em;
+}
+
+.navbar .mobile-menu-dropdown {
+  padding: 0em;
+  margin: 0em;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#84d600));
+  background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -92,8 +117,8 @@ section {
 
 .big-title {
   display: inline-block;
-  background: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#e17374));
-  background: linear-gradient(to right, #ff8a00 0%, #e17374 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#84d600));
+  background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -107,14 +132,6 @@ section {
 .info {
   font-size: 1.04em;
   padding: 2.5em;
-}
-
-.info-para {
-  background: -webkit-gradient(linear, left top, right top, from(#8775fc), to(#ff4e4e));
-  background: linear-gradient(to right, #8775fc 0%, #ff4e4e 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .github-button {
@@ -145,6 +162,10 @@ nav ul.primary-nav {
   margin-top: 4em;
 }
 
+nav ul.primary-nav .current {
+  font-weight: bold;
+}
+
 nav ul.primary-nav li a {
   background: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#e17374));
   background: linear-gradient(to right, #ff8a00 0%, #e17374 100%);
@@ -159,27 +180,6 @@ nav ul.primary-nav li a {
 }
 
 nav ul.primary-nav li a:hover {
-  font-weight: bold;
-}
-
-nav ul.secondary-nav {
-  margin-top: 0em;
-}
-
-nav ul.secondary-nav li a {
-  background: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#e17374));
-  background: linear-gradient(to right, #ff8a00 0%, #e17374 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-decoration: none;
-  display: block;
-  padding: .5em;
-  font-size: 1.3em;
-  text-align: right;
-}
-
-nav ul.secondary-nav li a:hover {
   font-weight: bold;
 }
 
