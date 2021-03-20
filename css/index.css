@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
-  --primary-color: #5a5a5a
-;
+  --primary-color: #438d0d;
+  --secondary-color: #f6b53b;
 }
 
 body {
@@ -29,16 +29,8 @@ body {
 .navbar .logo {
   text-decoration: none;
   font-weight: bold;
-  background: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#84d600));
-  background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 1.3em;
-}
-
-.navbar .logo span {
   color: var(--primary-color);
+  font-size: 1.3em;
 }
 
 .navbar nav {
@@ -58,11 +50,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
-  background: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#84d600));
-  background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--primary-color);
   font-size: 1.3em;
 }
 
@@ -72,16 +60,13 @@ body {
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
-  background: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#84d600));
-  background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--primary-color);
   font-size: 1.3em;
 }
 
 a {
-  color: #444444;
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 ul {
@@ -117,11 +102,7 @@ section {
 
 .big-title {
   display: inline-block;
-  background: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#84d600));
-  background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--secondary-color);
 }
 
 .hero-img {
@@ -171,12 +152,7 @@ nav ul.primary-nav .current {
 }
 
 nav ul.primary-nav li a {
-  background: -webkit-gradient(linear, left top, right top, from(#ff8a00), to(#e17374));
-  background: linear-gradient(to right, #ff8a00 0%, #e17374 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-decoration: none;
+  color: var(--primary-color);
   display: block;
   padding: .1em;
   font-size: .8em;

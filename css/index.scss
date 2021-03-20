@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #5a5a5a
+    --primary-color: #438d0d;
+    --secondary-color: #f6b53b;
 }
 
 body {
@@ -23,14 +24,8 @@ body {
     .logo {
         text-decoration: none;
         font-weight: bold;
-        background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: var(--primary-color);
         font-size: 1.3em;
-        span {
-            color: var(--primary-color);
-        }
     }
     nav {
         display: none;
@@ -47,10 +42,7 @@ body {
         cursor: pointer;
         text-decoration: none;
         font-weight: bold;
-        background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: var(--primary-color);
         font-size: 1.3em;
     }
     .mobile-menu-dropdown {
@@ -59,16 +51,14 @@ body {
         cursor: pointer;
         text-decoration: none;
         font-weight: bold;
-        background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: var(--primary-color);
         font-size: 1.3em;
     }
 }
 
 a {
-    color: #444444;
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 ul {
@@ -104,10 +94,7 @@ section {
 
 .big-title {
     display: inline-block;
-    background: linear-gradient(to right, #ff8a00 0%, #84d600 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--secondary-color);
 }
 
 .hero-img {
@@ -154,12 +141,7 @@ nav {
         li{
             
             a{
-                
-                background: linear-gradient(to right, #ff8a00 0%, #e17374 100%);
-                background-clip: text;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                text-decoration: none;
+                color: var(--primary-color);
                 display: block;
                 padding: .1em;
                 font-size: .8em;
