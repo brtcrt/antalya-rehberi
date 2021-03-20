@@ -35,7 +35,8 @@
    inkscape:window-x="1912"
    inkscape:window-y="-8"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Katman_x0020_1" /><metadata
+   inkscape:current-layer="Katman_x0020_1"
+   inkscape:document-rotation="0" /><metadata
    id="metadata186"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata>
@@ -479,8 +480,8 @@
    style="stop-opacity:1; stop-color:#FFFA69"
    id="stop79" />
    <stop
-   offset="0.22105949"
-   style="stop-opacity:1; stop-color:#F7BE41"
+   offset="0.12685734"
+   style="stop-opacity:1;stop-color:#f7980a"
    id="stop81" />
    <stop
    offset="1"
@@ -678,7 +679,7 @@
    cx="2977.1001"
    cy="4042.98"
    id="circle159"
-   style="mix-blend-mode:normal;fill:url(#id30);fill-opacity:1;image-rendering:auto;fill-rule:evenodd"
+   style="mix-blend-mode:normal;fill:url(#id30);fill-opacity:1;fill-rule:evenodd;image-rendering:auto"
    r="614.62" />
   <path
    class="fil26"
