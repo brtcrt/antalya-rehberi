@@ -3,6 +3,7 @@
 :root {
     --primary-color: #6caa26;
     --secondary-color: #f5920e;
+    --trinary-color: #0ea5dc;
     --focus-color: #365019;
 }
 
@@ -43,7 +44,7 @@ body {
         cursor: pointer;
         text-decoration: none;
         font-weight: bold;
-        color: var(--primary-color);
+        color: var(--trinary-color);
         font-size: 1.3em;
     }
     .mobile-menu-dropdown {
@@ -52,7 +53,7 @@ body {
         cursor: pointer;
         text-decoration: none;
         font-weight: bold;
-        color: var(--secondary-color);
+        color: var(--trinary-color);
         font-size: 1.3em;
     }
 }
@@ -78,7 +79,7 @@ section {
 
 .left-col {
     .big-logo {
-        width: 12em;
+        width: 7%;
     }
     .subhead {
         text-transform: uppercase;
@@ -138,7 +139,7 @@ nav {
         li{
             
             a{
-                color: var(--primary-color);
+                color: var(--trinary-color);
                 display: block;
                 padding: .1em;
                 font-size: .8em;
